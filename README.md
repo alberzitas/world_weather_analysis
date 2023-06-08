@@ -2,15 +2,19 @@
 
 ## Purpose and Overview
 
-The purpose of this project is to collect and present data for customers of PlanMyTrip to find the best hotel anywhere. To do this, we used Jupyter Notebook, MatPlotlib, and API calls to create a series of maps to describe the best itinerary for them.
+The objective of this project is to gather and present comprehensive data for PlanMyTrip customers, enabling them to discover the finest hotels worldwide. This endeavor involved utilizing Jupyter Notebook, Matplotlib, and API calls to construct a series of visually informative maps, facilitating the identification of optimal itineraries.
 
 ## Analysis
 
-The first step was to create a map of all the cities that fall into the range of preferred temperatures of the customers. To do that, we performed an API call and mapped all the hotels that were located within the preferred temperature range. 
+The initial step entailed generating a map encompassing all cities that fell within the customers' preferred temperature range. To accomplish this, an API call was made, plotting the locations of hotels situated within the desired temperature range.
+
 ![](Vacation_Search/WeatherPy_vacation_map.png)
 
-Next, we found 4 cities that matched the customers' preferrences and created an itinerary for them using the same map that we had generated for the previous step. This time however, we created a route from each city to the next, highlighting a suggested path for the customers to take.
+Subsequently, four cities were identified that aligned with the customers' preferences, and an itinerary was meticulously curated. Utilizing the previously generated map as a reference, routes connecting each city were established, effectively outlining a recommended path for the customers to follow.
+
+
 ![](Vacation_Itinerary/WeatherPy_travel_map.png)
 
-Finally, the names of the hotels and the cities on the itinerary are put on display for each location
+Lastly, the names of the hotels and cities featured in the itinerary were prominently displayed, enhancing the overall user experience and accessibility.
+
 ![](Vacation_Itinerary/WeatherPy_travel_map_markers.png)
